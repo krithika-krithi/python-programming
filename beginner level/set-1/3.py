@@ -1,6 +1,6 @@
-num=raw_input("enter the character")
-a=str(num)
-if a in ('a','e','i','o','u'):
+a=str(raw_input("enter the character"))
+list = ["a","e","i","o","u","A","E","I","O","U"]
+if a in list:
   print("Vowel")
 else:
   print("Consonant")
