@@ -1,5 +1,5 @@
 a=input("enter the number")
 if(a%2==0):
-  print("EVEN")
+  print("Even")
 else:
-  print("ODD")
+  print("Odd")
