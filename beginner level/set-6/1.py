@@ -1,5 +1,4 @@
-a=input()
-b=a%10
-c=((a/10)%10)
-d=a/100
-print d,c,b
+a=raw_input()
+b=list(a)
+for i in range(int(a)):
+  print b[i],
