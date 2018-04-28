@@ -1,2 +1,2 @@
-a=raw_input()
-print ord(a)
+value=raw_input()
+print ord(value)
